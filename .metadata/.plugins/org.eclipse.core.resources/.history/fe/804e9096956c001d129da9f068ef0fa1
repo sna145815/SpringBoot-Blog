@@ -1,0 +1,13 @@
+package com.study.blog.test;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController 
+public class BlogControllerTest {
+
+	public String hello()
+	{
+		return "<h1>heelo</h1>"
+	}
+}
